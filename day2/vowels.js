@@ -2,13 +2,13 @@
  * Complete the vowelsAndConsonants function.
  * Print your output using 'console.log()'.
  */
+const knownVowels = 'aeiou'
+
+function checkVowel(char) {
+  return knownVowels.indexOf(char) !== - 1
+}
+
 function vowelsAndConsonants(s) {
-  const knownVowels = 'aeiou'
-
-  function checkVowel(char) {
-    return knownVowels.indexOf(char) !== - 1
-  }
-
   let vowels = []
   let consonants = []
 
