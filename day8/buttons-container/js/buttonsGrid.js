@@ -14,7 +14,7 @@ function rotateButtons() {
   clickCount += 1;
 
   switch (clickCount) {
-    case 0,7,14:
+    case 0,7:
       btn1.innerHTML = 1;
       btn2.innerHTML = 2;
       btn3.innerHTML = 3;
@@ -24,7 +24,7 @@ function rotateButtons() {
       btn8.innerHTML = 8;
       btn9.innerHTML = 9;
       break;
-    case 1,8,15:
+    case 1:
       btn1.innerHTML = 4;
       btn2.innerHTML = 1;
       btn3.innerHTML = 2;
@@ -34,7 +34,7 @@ function rotateButtons() {
       btn8.innerHTML = 9;
       btn9.innerHTML = 6;
       break;
-    case 2,9,16:
+    case 2:
       btn1.innerHTML = 7;
       btn2.innerHTML = 4;
       btn3.innerHTML = 1;
@@ -44,7 +44,7 @@ function rotateButtons() {
       btn8.innerHTML = 6;
       btn9.innerHTML = 3;
       break;
-    case 3,10,17:
+    case 3:
       btn1.innerHTML = 8;
       btn2.innerHTML = 7;
       btn3.innerHTML = 4;
@@ -54,7 +54,7 @@ function rotateButtons() {
       btn8.innerHTML = 3;
       btn9.innerHTML = 2;
       break;
-    case 4,11,18:
+    case 4:
       btn1.innerHTML = 9;
       btn2.innerHTML = 8;
       btn3.innerHTML = 7;
@@ -64,7 +64,7 @@ function rotateButtons() {
       btn8.innerHTML = 2;
       btn9.innerHTML = 1;
       break;
-    case 5,12,19:
+    case 5:
       btn1.innerHTML = 6;
       btn2.innerHTML = 9;
       btn3.innerHTML = 8;
@@ -74,7 +74,7 @@ function rotateButtons() {
       btn8.innerHTML = 1;
       btn9.innerHTML = 4;
       break;
-    case 6,13,20:
+    case 6:
       btn1.innerHTML = 3;
       btn2.innerHTML = 6;
       btn3.innerHTML = 9;
