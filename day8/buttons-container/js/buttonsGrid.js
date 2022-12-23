@@ -12,9 +12,10 @@ let clickCount = 0;
 
 function rotateButtons() {
   clickCount += 1;
+  const currentState = clickCount % 7;
 
-  switch (clickCount) {
-    case 0,7:
+  switch (currentState) {
+    case 0:
       btn1.innerHTML = 1;
       btn2.innerHTML = 2;
       btn3.innerHTML = 3;
